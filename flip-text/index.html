@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Upside-Down Text</title>
+    <meta name="author" content="name">
+        <link rel="icon" type="image/png" href="#">
+    <meta name="description" content="description">
+    <link rel="stylesheet" type = "text/css" href="css/main.css">
+</head>
+<body>
+    <h1>Upside-Down Text</h1>
+    <p>Completely pointless, but useful for showing off to your friends.  Maps each character to the equivalent Unicode character rotated by 180°.
+    <form>
+      <p><textarea id="text">ʇxǝ⊥ uʍoᗡ-ǝpısd∩</textarea>
+      <p><button onclick='event.preventDefault(); var e = document.getElementById("text"); e.value = flipString(e.value)'>Flip</button>
+    </form>
+  <script src="js\main.js"></script>
+</body>
+</html>
